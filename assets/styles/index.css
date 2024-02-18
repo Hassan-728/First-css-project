@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=League+Spartan:wght@100..900&display=swap');
+
+* {
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: hsl(0, 0%, 0%);
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 15px;
+    background-color: hsl(0, 0%, 12%);
+    width: 450px;
+    height: 750px;
+    border-radius: 15px;
+}
+
+
+img{
+    border-radius: 50%;
+}
+
+.img{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.div-name{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.location{
+    color: hsl(75, 94%, 57%);
+}
+
+.div-location{
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    
+}
+
+.work{
+    color: hsl(0, 0%, 66%);
+}
+
+.div-work{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+
+.button-container{
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    
+}
+.button{
+    background-color: hsl(0, 0%, 50%);
+    border: none;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: ease-in 250ms  ;
+}
+.button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
